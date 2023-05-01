@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: first-pod
+spec:
+  containers:
+  - name: first
+    image: vikash98yadav/one:v1
+    ports:
+    - containerPort: 8000
